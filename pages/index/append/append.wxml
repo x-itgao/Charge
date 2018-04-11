@@ -1,0 +1,53 @@
+<view class="container">
+  <view class="head">
+    <text bindtap="bindBack">BACK</text>
+    <text style='margin-left:20rpx;'>账单</text>
+  </view>
+  <view class="choose">
+    <view>
+      <text class="{{expenses?'choosed':''}}" style="{{expenses?'color:white;':''}}"
+        bindtap="bindExpenses">支出     </text>
+      <text class="{{earning?'choosed':''}}" style="{{earning?'color:white;':''}}"
+        bindtap="bindEarning">收入</text>
+    </view>
+  </view>
+  <view class="title">
+    <text>请输入金额</text>
+  </view>
+  <input placeholder="0.00"></input>
+  <view class="title">
+    <text>请选择分类</text>
+  </view>
+  <view class="scroll">
+    <scroll-view scroll-x="true" class="scroll-view_x" style="width: 100%;"> 
+    <view class='scroll-item' wx:for="{{items}}" wx:for-index="id">
+      <text class="{{id==catId?'choosed':''}}" style="{{id==catId?'color:white;':''}}"
+        bindtap="bindCat" data-id="{{id}}">测试测试</text>
+    </view>
+    </scroll-view>
+  </view>
+  
+  <view class="title">
+    <text>请选择账户</text>
+  </view>
+  <view class="scroll">
+    <scroll-view scroll-x="true" class="scroll-view_x" style="width: 100%;"> 
+    <view class='scroll-item' wx:for="{{items}}" wx:for-index="id">
+      <text class="{{id==accountId?'choosed':''}}" style="{{id==accountId?'color:white;':''}}" bindtap="bindAccount" data-id="{{id}}">测试</text>
+    </view>
+    </scroll-view>
+  </view>
+  <view class="title">
+    <text>时间</text>
+  </view>
+  <picker mode="date" value="{{date}}" end="{{end_date}}" bindchange="bindChangeDate">
+    <text>{{date}}</text>
+  </picker>
+  <view class="title">
+    <text>备注</text>
+  </view>
+  <textarea></textarea>
+  <view class="end">
+    <text class="finish">完成</text>
+  </view>
+</view>

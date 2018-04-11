@@ -1,0 +1,44 @@
+/**app.wxss
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+**/
+.head{
+  height: 40%;
+  width: 100%;
+  background-color: 	#436EEE;
+  display: flex;
+  flex-direction: column;
+  padding-top: 75rpx;
+  padding-left: 30rpx;
+  
+}
+.head text{
+  color: white;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #FAFAFA;
+}
+.center_H{
+  display: flex;
+  align-items: center;
+}
+.title{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #EEEED1;
+}
+.title text{
+  font-size: 30rpx;
+  color: gray;
+  margin-left: 30rpx;
+}

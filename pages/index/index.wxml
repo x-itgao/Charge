@@ -1,0 +1,61 @@
+<view class="container">
+  <view class="head">
+    <text>账本</text>
+    <view class="setting">
+      <view class="group">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"            bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <block wx:else>
+          <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        </block>
+        <text class="setting-add" bindtap="bindAdd">添加成员</text>
+      </view>
+      <text class="setting-change">切换账本</text>
+    </view>
+    <view class="total">
+      <view class="total-item">
+        <text>4月总收入\n元</text>
+      </view>
+      <view class="total-item">
+        <text>4月总结余\n元</text>、
+      </view>
+      <view class="total-item" style='margin-right:40rpx;'>
+        <text>4月总支出\n元</text>
+      </view>
+    </view>
+  </view>
+  <!-- head end -->
+  <view class="list">
+  <scroll-view scroll-y style="height:100%;">
+    <view wx:for="{{items}}">
+      <view class="title">
+        <text>2018-04-10 收入20.00元，支出30.00元</text>
+      </view>
+      <view wx:for="{{item}}" class="list-item" bindtap="bindItem">
+        <view class="item">
+          <image src="../../images/tabBar/user.png"></image>
+          <view class='item-text'>
+            <text style='color:red;'>投资</text>
+            <text wx:if="{{false}}">备注</text>
+            <text>20.00元</text>
+          </view>
+        </view>
+      </view>
+      
+    </view>
+  </scroll-view>
+  </view>
+  <image class="add" src="../../images/tools/add.png" bindtap="bindPlus"></image>
+</view>
+
+<!--index.wxml
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+ 
+</view>
+-->

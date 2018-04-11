@@ -1,0 +1,47 @@
+.head{
+  height: 80rpx;
+  flex-direction: row;
+}
+.members{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.userInfo{
+  width: 100rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30rpx;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 25%;
+  border: solid 1px gray;
+}
+.nickname{
+  font-size: 30rpx;
+}
+.add{
+  border: solid 1px gray;
+  border-radius: 25%;
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 30rpx;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.add text{
+  font-size: 64rpx;
+  color: gray;
+  margin-left: 27rpx;
+}

@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="head">
+    <text bindtap="bindBack">BACK</text>
+    <text style='margin-left:20rpx;'>账单</text>
+  </view>
+  <view class="title"><text >共享成员</text></view>
+  <view class="members">
+    <view wx:for="{{items}}" class="userInfo">
+      <image class="avatar" src="{{avatarUrl}}" background-size="cover"></image>
+      <text class="nickname">{{nickName}}</text>
+    </view>
+    <view class="add"><text>+</text></view>
+  </view>
+</view>

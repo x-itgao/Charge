@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="head">
+    <text bindtap="bindBack">BACK</text>
+    <text style='margin-left:20rpx;'>账单</text>
+  </view>
+  <view wx:for="{{items}}">
+    <view class="content-item">
+      <view class="item">
+        <text>餐饮</text>
+        <view>
+          <image wx:if="{{false}}" src=""></image>
+          <text>20.00元</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <button bindtap="bindAlter">修改</button>
+  <button type="warn" bindtap="bindDelete">删除此条目</button>
+</view>

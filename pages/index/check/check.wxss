@@ -1,0 +1,30 @@
+.head{
+  height: 80rpx;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.content-item{
+  height: 100rpx;
+  background-color: white;
+  margin-top: 10rpx;
+}
+.item{
+  margin-top: 2rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  border-bottom-style: solid;
+  border-bottom-width: 1rpx;
+  border-bottom-color: gainsboro;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.item text{
+  font-size: 30rpx;
+}
+button{
+  margin-top: 50rpx;
+  background-color: white;
+}
