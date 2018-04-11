@@ -11,4 +11,13 @@
     </view>
     <view class="add"><text>+</text></view>
   </view>
+  <view class="item" style="margin-top:30rpx;" bindtap="alter_name">
+    <text class="big">账本名称</text>
+    <text class="small">xxg的账本    {{more}}</text>
+  </view>
+  <view class="item">
+    <text class="big">账本统计</text>
+    <text class="small">{{num}}条账目    {{more}}</text>
+  </view>
+  <button type="warn">退出账本</button>
 </view>

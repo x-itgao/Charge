@@ -1,11 +1,12 @@
 {
   "pages":[
-    "pages/index/group/group",
     "pages/index/index",
+    "pages/index/group/group",
     "pages/detail/detail",
     "pages/user/user",
     "pages/logs/logs",
     "pages/index/check/check",
+    "pages/index/group/alter-name/alter-name",
     "pages/index/append/append"
     
   ],

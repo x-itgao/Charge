@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="head">
+    <text bindtap="bindBack">BACK</text>
+    <text style='margin-left:20rpx;'>修改账本</text>
+  </view>
+  <view class="title"><text>账本名称</text></view>
+  <input confirm-type="done" value='xxg的账本'></input>
+  <button>确定</button>
+</view>

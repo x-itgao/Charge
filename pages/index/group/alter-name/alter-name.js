@@ -1,21 +1,12 @@
-// pages/index/group/group.js
+// pages/index/group/alter-name/alter-name.js
 Page({
 
   data: {
-    items: [1,2,4,5,4,1],
-    avatarUrl: '../../../images/tabBar/user.png',
-    nickName: 'xxg',
-    more: '>',
-    num: 11,
+  
   },
-  bindBack: function(){
+  bindBack: function(e){
     wx.navigateBack({
       
-    })
-  },
-  alter_name: function(e){
-    wx.navigateTo({
-      url: './alter-name/alter-name',
     })
   },
   onLoad: function (options) {

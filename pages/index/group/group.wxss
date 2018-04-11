@@ -9,6 +9,7 @@
   flex-direction: row;
   background-color: white;
   flex-wrap: wrap;
+  border-bottom: solid 1px #EEEED1;
 }
 .userInfo{
   width: 100rpx;
@@ -44,4 +45,31 @@
   font-size: 64rpx;
   color: gray;
   margin-left: 27rpx;
+}
+.item{
+  height: 100rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  border-bottom: solid 1px #EEEED1;
+  border-top: solid 1px #EEEED1;
+}
+.item:active{
+  background-color: #E8E8E8;
+}
+.big{
+  font-size: 35rpx;
+}
+
+.small{
+  font-size: 30rpx;
+  color: gray;
+}
+button{
+  margin-top: 50rpx;
+  width: 90%;
 }
