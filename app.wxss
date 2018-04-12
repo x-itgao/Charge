@@ -42,3 +42,26 @@
   color: gray;
   margin-left: 30rpx;
 }
+.item{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: solid 1px #EEEED1;
+}
+.item text{
+  margin-right: 20rpx;
+}
+.button{
+  width: 90%;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 40rpx;
+  position: fixed;
+  bottom: 30rpx;
+  margin-left: 40rpx;
+}

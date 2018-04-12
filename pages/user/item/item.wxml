@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="head">
+    <text bindtap="bindBack">BACK</text>
+    <text style='margin-left:20rpx;'>{{title}}</text>
+  </view>
+  <view wx:for="{{items}}" class="item" wx:for-index="id" style="{{id==0?'margin-top:50rpx;border-top:solid 1px #EEEED1':''}}" bindtap="bindGroup">
+    <text class='left'>微信钱包</text>
+    <switch checked></switch>
+  </view>
+  <button class="button" bindtap="bindAppend">{{append_item}}</button>
+  
+</view>

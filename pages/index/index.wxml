@@ -3,7 +3,7 @@
     <text>账本</text>
     <view class="setting">
       <view class="group">
-        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"            bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"  bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
         <block wx:else>
           <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
         </block>
@@ -31,7 +31,7 @@
         <text>2018-04-10 收入20.00元，支出30.00元</text>
       </view>
       <view wx:for="{{item}}" class="list-item" bindtap="bindItem">
-        <view class="item">
+        <view class="list-item-item">
           <image src="../../images/tabBar/user.png"></image>
           <view class='item-text'>
             <text style='color:red;'>投资</text>

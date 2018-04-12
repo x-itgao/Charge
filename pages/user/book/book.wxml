@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="head">
+    <text bindtap="bindBack">BACK</text>
+    <text style='margin-left:20rpx;'>账单</text>
+  </view>
+  <view wx:for="{{items}}" class="item" wx:for-index="id" style="{{id==0?'margin-top:50rpx;border-top:solid 1px #EEEED1':''}}" bindtap="bindGroup">
+    <text class='left'>xxg的账本</text>
+    <view><text class='right'>1位成员{{more}}</text></view>
+  </view>
+  <button class="button" bindtap="bindAppend">添加账本</button>
+</view>

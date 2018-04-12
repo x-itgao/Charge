@@ -1,0 +1,62 @@
+<view class="container">
+  <view class="head">
+    <image src="../../images/tabBar/user.png"></image>
+    <text>xxg</text>
+  </view>
+  <view class="tab">
+    <view class="tab-item">
+      <view><text class="tab-item-text">101</text><text class="mini">天</text></view>
+      <text style="font-size:30rpx;">已加入</text>
+    </view>
+    <view class="tab-item">
+      <view><text class="tab-item-text">11</text><text class="mini">天</text></view>
+      <text style="font-size:30rpx;">已记账</text>
+    </view>
+    <view class="tab-item">
+      <view><text class="tab-item-text">101</text></view>
+      <text style="font-size:30rpx;">经验</text>
+    </view>
+  </view>
+  <view bindtap="bindBook" class="item" style="margin-top:100rpx;">
+    <view>
+      <image src=""></image>
+      <text>我的账本</text>
+    </view>
+    <text>{{more}}</text>
+  </view>
+  <view bindtap="bindAccount" class="item">
+    <view>
+      <image src=""></image>
+      <text>我的账户(银行卡)</text>
+    </view>
+    <text>{{more}}</text>
+  </view>
+  <view bindtap="bindEarn" class="item">
+    <view>
+      <image src=""></image>
+      <text>我的收入条目</text>
+    </view>
+    <text>{{more}}</text>
+  </view>
+  <view bindtap="bindExpenses" class="item">
+    <view>
+      <image src=""></image>
+      <text>我的支出条目</text>
+    </view>
+    <text>{{more}}</text>
+  </view>
+  <view class="item">
+    <view>
+      <image src=""></image>
+      <text>意见反馈</text>
+    </view>
+    <text>{{more}}</text>
+  </view>
+  <view class="item">
+    <view>
+      <image src=""></image>
+      <text>赞赏</text>
+    </view>
+    <text>{{more}}</text>
+  </view>
+</view>

@@ -25,7 +25,7 @@
 .avatar{
   width: 100rpx;
   height: 100rpx;
-  border-radius: 25%;
+  border-radius: 5px;
   border: solid 1px gray;
 }
 .nickname{

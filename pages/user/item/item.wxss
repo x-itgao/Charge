@@ -1,0 +1,8 @@
+.head{
+  height: 80rpx;
+  flex-direction: row;
+}
+.left{
+  font-size: 35rpx;
+  margin-left: 30rpx;
+}

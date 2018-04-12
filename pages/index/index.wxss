@@ -64,7 +64,7 @@
   font-size: 25rpx;
   color: gray;
 }
-.item{
+.list-item-item{
   margin-left: 30rpx;
   height: 100rpx;
   display: flex;
@@ -72,7 +72,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.item image{
+.list-item-item image{
   width: 50rpx;
   height: 50rpx;
   border-radius: 50%;

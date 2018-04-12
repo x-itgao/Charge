@@ -47,7 +47,8 @@
     <text>备注</text>
   </view>
   <textarea></textarea>
-  <view class="end">
+  <!--<view class="end">
     <text class="finish">完成</text>
-  </view>
+  </view>-->
+  <button class="button">完成</button>
 </view>

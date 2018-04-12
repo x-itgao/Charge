@@ -5,7 +5,7 @@
   </view>
   <view wx:for="{{items}}">
     <view class="content-item">
-      <view class="item">
+      <view class="content-item-item">
         <text>餐饮</text>
         <view>
           <image wx:if="{{false}}" src=""></image>

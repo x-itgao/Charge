@@ -1,0 +1,16 @@
+.head{
+  height: 80rpx;
+  flex-direction: row;
+}
+
+.item:active{
+  background-color: gainsboro;
+}
+.left{
+  font-size: 35rpx;
+  margin-left: 30rpx;
+}
+.right{
+  font-size: 30rpx;
+  color: gray;
+}
